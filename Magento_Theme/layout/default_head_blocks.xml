@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../vendor/magento/framework/Module/etc/module.xsd">
+    <head>
+
+        <css src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" src_type="url" />
+        <css src="css/bootstrap.min.css" />
+        <css src="css/owl.carousel.min.css" />
+        <css src="css/owl.theme.default.min.css" />
+        <css src="css/magento-default-style.css" />
+        <css src="css/style.css" />
+        <css  src="css/default.css" />
+        <css  src="css/component.css" />
+        <css src="css/page.css" />
+        
+        <script src="js/jquery.min.js" />
+        <script src="js/owl.carousel.min.js" />
+        <script src="js/custom.js" type="text/javascript"/>
+        <script src="js/classie.js" />
+
+    </head>
+</page>

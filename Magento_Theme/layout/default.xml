@@ -1,0 +1,21 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/esynewlife_logo.png</argument>
+                <argument name="logo_img_width" xsi:type="number">80</argument> 
+                <argument name="logo_img_height" xsi:type="number">80</argument>
+            </arguments>
+        </referenceBlock>
+
+
+<referenceContainer name="header-wrapper">
+     <block class="Magento\Framework\View\Element\Template" name="catalog.topnav" as="custom_topmenu" template="Magento_Theme::html/topmenu.phtml"/>
+</referenceContainer>
+
+<referenceBlock name="header.links" display="true"/>
+
+    <attribute name="class" value="cbp-spmenu-push"/>
+
+    </body>
+</page>		

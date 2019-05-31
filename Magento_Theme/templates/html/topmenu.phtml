@@ -1,0 +1,60 @@
+<div id="mySidenav" class="sidenav">
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   
+   <?php
+      $objectManagerlogin = \Magento\Framework\App\ObjectManager::getInstance();
+      $customerSession = $objectManagerlogin->get('Magento\Customer\Model\Session');
+      $baseurl = $objectManagerlogin->get('Magento\Store\Model\StoreManagerInterface')->getStore(0)->getBaseUrl();
+      ?>
+   <ul>
+      <?php if($customerSession->isLoggedIn()) { ?>
+      <li>
+         <a href="<?php echo $baseurl .'customer/account/logout'; ?>">Logout</a>
+      </li>
+      <?php }else { ?>
+      <li>
+         <a href="<?php echo $baseurl .'customer/account/login'; ?>">Login</a> 
+      </li>
+      <?php
+         }
+         ?>
+   </ul>
+   <?php
+      $catId =2; //default category id
+      $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+      $subcategory = $objectManager->create('Magento\Catalog\Model\Category')->load($catId); 
+      $subcats = $subcategory->getChildrenCategories();
+      ?>
+   <ul >
+      <?php
+         foreach ($subcats as $subcat) {
+         if ($subcat->getIsActive()) {
+         
+         $subcat_url = $subcat->getUrl();
+         $subcat_img = "";
+         $placeholder_img = "/media/placeholder.png";
+         ?>
+      <li>
+         <a href="<?php echo $subcat_url; ?>">
+         <?php echo $subcat->getName(); ?>
+         </a>
+      </li>
+      <?php
+         }
+         }
+         ?>
+   </ul>
+
+
+</div>
+<div class="top_menu">
+   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+<script>
+   function openNav() {
+   document.getElementById("mySidenav").style.width = "100%";
+   }
+   function closeNav() {
+   document.getElementById("mySidenav").style.width = "0";
+   }
+</script>
