@@ -20,9 +20,11 @@
 }
 .ancient {
     float: left;
+    padding-left: 10%;
 }
 .science {
     float: right;
+    padding-right: 10%;
 }
 .ancient img,.science img {
     height: 120px;
@@ -75,8 +77,11 @@ box-shadow: none!important;
     text-align: center;
     font-weight: lighter;
 }
-.banner-side-menu {
+.navigation-side-menu {
     position: fixed;
+}
+.banner-side-menu {
+    position: absolute;
     width: 100%;
     bottom: 0;
     left: 50%;
@@ -229,7 +234,7 @@ height: 250px!important;
         font-size: 17px;
     }
     .banner-side-menu {
-        position: fixed;
+        position: absolute;
         bottom: 0;
         width: 100%;
     }

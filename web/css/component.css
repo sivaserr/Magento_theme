@@ -94,12 +94,13 @@ body.cbp-spmenu-push {
 
 .cbp-spmenu-left.cbp-spmenu-open {
 	left: 0px;
-	    z-index: 9999;
-}
+		z-index: 9999;
+		border-right: 1px solid #dfdfdf;}
 
 .cbp-spmenu-right.cbp-spmenu-open {
 	right: 0px;
 	 z-index: 9999;
+	 border-left: 1px solid #dfdfdf;
 
 }
 .scroll-header{
