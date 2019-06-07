@@ -1,0 +1,926 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Libre+Baskerville|Raleway&display=swap');
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px!important;
+	color: #848484!important;
+}
+/* Header */
+
+.link {
+    font-family: 'Libre Baskerville', serif;
+}
+/* side menu */
+.cbp-spmenu-vertical a {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Yoga Page */
+.yoga-body{
+    overflow-x: hidden!important;
+}
+
+/* Meditation page */
+
+/* .meditation {
+	background-image: url("../Images/Untitled-1.png");
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+} */
+
+.meditation-content {
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+.meditation_primary {
+	position: absolute;
+	text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* .meditation h1 {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: 'Raleway', sans-serif;
+} */
+
+.meditation-content p {
+	font-family: 'Raleway', sans-serif;
+	width: 87%;
+	text-align: justify;
+	font-size: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+
+.meditation-content ul {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	list-style: decimal-leading-zero;
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: -10px;
+}
+
+.meditation-content ul li {
+	line-height: 30px;
+}
+
+.Focused {
+    background-image: url(../Images/Depositphotos_12515947_original.jpg);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Focused-list-1 img {
+	width: 100%;
+}
+
+.Focused-list {
+	background-size: cover;
+}
+
+.Focused-list-1 {
+	background: rgba(255, 255, 255, 0.76);
+	padding: 50px;
+	text-align: justify;
+	color: #484848;
+}
+
+.Focused-list-1 h2,
+.Focused-list-1 h4 {
+	padding-bottom: 8px;
+	color: #000;
+	font-weight: 600;
+}
+
+.meditation-types {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+
+.meditation-types h3 {
+	font-weight: 600;
+}
+
+.meditation-types h1,
+.Benefits h1,
+.Feng h1 {
+	font-size: 30px;
+	font-weight: 600;
+	padding-bottom: 15px;
+	text-align: center;
+	font-family: 'Bad Script', cursive;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(To right, #863567, #4455a2, #2694ca, #299852, #f6d326, #e87838, #d33539);
+}
+
+.meditation-types p {
+	padding-bottom: 10px;
+	padding-left: 27px;
+}
+
+.hinduism h1 {
+	text-align: center;
+	padding-bottom: 50px;
+	color: #03A9F4;
+	padding-top: 30px;
+}
+
+.hindu-row h2 {
+	padding-bottom: 10px;
+	padding-top: 30px;
+	color: #fff;
+}
+
+.hindu-row {
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.hinduism {
+	background: #1b1e26;
+	text-align: justify;
+}
+
+.hinduism .row {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.hindu-1,
+.hindu-2 {
+	color: #bfbfbf;
+	padding-bottom: 60px;
+	padding-top: 50px;
+}
+
+.Christian ul {
+	padding: 0;
+}
+
+.hinduism .row {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.hindu-row::after {
+	content: "";
+	border-bottom: 1px solid #404040;
+	position: absolute;
+	width: 90%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.mc-meditation::after {
+	display: none;
+}
+
+.Benefits {
+	background: #f2f2f2;
+	padding: 100px;
+}
+
+.Benefits h1 {
+	text-align: center;
+	padding-bottom: 40px;
+	font-weight: 600;
+}
+
+.benefits-img {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.Benefits .row {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.Feng {
+	padding: 90px;
+	text-align: justify;
+}
+
+.Feng h1 {
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+
+/* Meditation End */
+
+
+/* Benefits page */
+
+/* .benefit-yoya-banner {
+	background-image: url("../Images/image-4.jpg");
+	height: 600px;
+	background-position: center;
+} */
+.benefit-yoga-img {
+    position: relative;
+}
+.benefit-yoga img {
+	width: 100%;
+	height: 100vh;
+}
+.Benefits_list {
+	width: 69%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.benefit-yoya-banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+/* .benefit-yoya-banner h1 {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+} */
+
+.benefit-yoga-list h1,
+.catagories h1,
+.benefits-mantra-content h1,
+.chanting-mantra h1,
+.mind-over-top-content h1 {
+	font-family: 'Bad Script', cursive;
+	text-align: center;
+	padding-bottom: 10px;
+	position: relative;
+	margin-bottom: 25px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(To right, #863567, #4455a2, #2694ca, #299852, #f6d326, #e87838, #d33539);
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline-block;
+	font-size: 27px;
+}
+
+.benefit-yoga-list h2::after {
+	content: "";
+	border-bottom: 2px solid;
+	position: absolute;
+	width: 150px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.Benefits_list .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.benefit-yoga-list {
+	padding: 40px;
+}
+
+.Benefits_list ul {
+	list-style: none;
+}
+
+.benefit-yoga-list {
+	padding: 40px 20px 40px 20px;
+}
+
+.Universal {
+	background: url("../Images/om.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.Universal-content {
+	background: rgba(255, 255, 255, 0.84);
+	height: 400px;
+	width: 600px;
+	position: absolute;
+	right: 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	padding: 50px;
+	color: #6b6b6b;
+}
+
+.catagories h1 {
+	text-align: center;
+}
+
+.catagories::after {
+	content: "";
+	position: absolute;
+	border-bottom: 1px solid #dadada;
+	width: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+}
+
+.catagories {
+	padding: 50px;
+	position: relative;
+}
+
+.catagorie-1 h4,
+.catagorie-2 h4 {
+	font-weight: 600;
+}
+
+.catagories h1 {
+	padding-bottom: 40px;
+}
+
+.benefits-mantra {
+	padding: 50px;
+}
+
+.benefits-mantra-img img {
+	width: 100%;
+}
+
+.benefits-mantra-content h1 {
+	padding-bottom: 20px;
+	left: 40px;
+	padding-bottom: 0;
+}
+
+.chanting-mantra .row {
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+
+.chanting-mantra {
+	background: #e4e4e4;
+	padding: 70px 50px 70px 50px;
+}
+
+.chanting-mantra h1 {
+	padding-bottom: 30px;
+	left: 160px;
+}
+
+.mind-over-matter {
+	padding: 70px;
+}
+
+.mind-over-top-content {
+	padding-bottom: 25px;
+}
+
+.mind-over-top-content h1 {
+	padding-bottom: 15px;
+	left: 93px;
+}
+
+.mind-over-matter h3 {
+	padding-bottom: 15px;
+}
+
+.benefits-mantra-content h3 {
+	color: #545454;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+
+.benefits-mantra-content p {
+	padding-bottom: 20px;
+}
+
+
+/* Benefits End */
+
+
+/* life force page */
+
+.life-force-banner {
+	background: url("../Images/Life_Energy.png");
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.life-force-banner h1 {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+	font-weight: 600;
+}
+
+.life-force-content {
+	padding: 50px;
+	text-align: justify;
+}
+
+.life-force-content-types {
+	padding: 50px;
+	padding-top: 0;
+}
+
+.life-force-content-types h1 {
+	font-weight: 600;
+	font-size: 20px;
+	display: inline-block;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(To right, #863567, #4455a2, #2694ca, #299852, #f6d326, #e87838, #d33539);
+	padding: 20px;
+	padding-left: 0;
+	font-family: 'Bad Script', cursive;
+}
+
+.life-force-content-types h3 {
+	color: #000;
+	font-weight: 600;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.life-force-content-types p {
+	padding-left: 20px;
+}
+
+.life-force-content-types hr {
+	margin-top: 30px;
+	margin-bottom: 35px;
+}
+
+
+/* life force End */
+
+
+/* color page */
+
+.color-banner {
+	background-image: url("../Images/color-t.png");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+.color-banner h1 {
+	text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    font-weight: 600;
+}
+
+.color-content {
+	padding: 35px 50px 10px 50px;
+	text-align: justify;
+	font-size: 14px;
+}
+
+.color-content h1,
+.color-benefits h3 {
+	text-transform: uppercase;
+}
+
+.color-content h1,
+.color-benefits h3 {
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	text-transform: capitalize;
+	font-family: 'Bad Script', cursive;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(To right, #863567, #4455a2, #2694ca, #299852, #f6d326, #e87838, #d33539);
+	display: inline-block;
+}
+
+.color-content h1::after {
+	content: "";
+	border-bottom: 2px solid #4caf50;
+	width: 250px;
+	position: absolute;
+	margin-top: 15px;
+	left: 0;
+}
+
+.color-benefits {
+	padding: 0px 50px 100px 50px;
+}
+
+.color-benefits h3 {
+	text-align: center;
+	padding-bottom: 35px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 25px;
+}
+
+.ben-list {
+	background: #f2f2f2;
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.color-benefits .row {
+	margin-bottom: 30px;
+}
+
+.ben-list img {
+	height: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.ben-list h4 {
+	text-align: center;
+	padding-top: 30px;
+	color: #000;
+	position: relative;
+	padding-bottom: 15px;
+}
+
+.ben-list h4::after {
+	content: "";
+	border-bottom: 1px solid #4CAF50;
+	position: absolute;
+	width: 100px;
+	bottom: 0;
+	left: 50%;
+	/* padding-top: 11px; */
+	transform: translateX(-50%);
+}
+
+
+/* color End */
+
+
+/* Magnet page */
+
+.magnet {
+	background-image: url("../Images/3020.jpg");
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.magnet-content {
+	padding-bottom: 50px;
+	padding-top: 52px;
+	font-size: 15px;
+}
+
+.magnet-content p,
+.magnet-content ul {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+
+.magent-content-para-1 h6 {
+	text-align: center;
+	padding-bottom: 10px;
+	color: #2b3f4d;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: linear-gradient(To right, #863567, #4455a2, #2694ca, #299852, #f6d326, #e87838, #d33539);
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.magnet h1 {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    font-weight: 600;
+}
+
+.magnet-content-history .row {
+	margin-right: 0;
+}
+
+.magnet-history-1 {
+	background: #2b3f4d;
+	height: 800px;
+	margin-right: -15px;
+}
+
+.magnet-history-1 h1 {
+	font-size: 33px;
+	color: #fff;
+	padding-bottom: 35px;
+	padding-left: 79px;
+	font-family: 'Bad Script', cursive;
+}
+
+.magnet-history-1 p {
+	color: #fff;
+	font-size: 16px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+
+.mh-sub {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.magnet-history-2 {
+	background: url("../Images/960x884_bg1.jpg");
+	height: 800px;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+
+/* Magnet End */
+
+
+/* Mudras page */
+
+.mudra-banner {
+	background: url("../Images/eyeem-116677693.jpg");
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.mudra-banner h1 {
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+	font-size: 40px;
+}
+
+.mudra-content {
+	padding: 50px;
+}
+
+.mudra-content-type {
+	padding: 50px;
+	padding-top: 0;
+}
+
+.mudra-content-type-image-1 {
+	margin-right: -15px;
+}
+
+.mudra-content-type-image-1 img {
+	width: 100%;
+	height: 600px;
+	margin-right: 0;
+}
+
+.mudra-content-type-1 {
+	background: #77aece;
+	color: #fff;
+	height: 600px;
+	margin-left: -15px;
+	padding: 30px 75px 30px 75px;
+}
+
+.mudra-content-type-2 {
+	background: #e9e8ed;
+	padding: 30px 70px 30px 70px;
+	height: 650px;
+	margin-right: -15px;
+}
+
+.mudra-content-type-image-2 {
+	margin-left: -15px;
+}
+
+.mudra-content-type-image-2 img {
+	height: 650px;
+	width: 100%;
+}
+
+.mudra-content-type-3 {
+	padding: 50px;
+}
+
+
+/* Mudras End */
+
+@media(max-width:769px) {
+	/* Meditation page */
+	.meditation-content ul {
+		padding: 10px 15px 10px 15px;
+	}
+	.hindu-1,
+	.hindu-2 {
+		padding-bottom: 20px;
+		padding-top: 0px;
+	}
+	.Movement ul {
+		padding: 0;
+	}
+	.Benefits {
+		background: #f2f2f2;
+		padding: 35px 0px 35px 0px;
+	}
+	.Benefits ul {
+		padding: 0px;
+	}
+	.Benefits .row {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.Feng {
+		padding: 50px 30px 50px 30px;
+	}
+	.meditation-types h1,
+	.Benefits h1,
+	.Feng h1 {
+		font-size: 24px;
+		padding-bottom: 25px;
+	}
+	/* Meditation End */
+	/* Benefits page */
+	/* .benefit-yoya-banner {
+		background-image: url(../Images/image-4.jpg);
+		height: 600px;
+		background-position: center;
+		background-size: 600px 600px;
+		background-repeat: no-repeat;
+	} */
+	.Universal-content {
+		height: 450px;
+		width: 335px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 40px 20px 0px 20px;
+	}
+	.Benefits_list {
+		width: 100%;
+	}
+	.catagories h1 {
+		padding-bottom: 10px;
+	}
+	.catagorie-1 {
+		text-align: justify;
+	}
+	.catagorie-2 {
+		text-align: justify;
+		padding-top: 12px;
+	}
+	.benefits-mantra {
+		padding: 30px;
+		text-align: justify;
+	}
+	.benefits-mantra-content p {
+		padding-bottom: 10px;
+	}
+	.chanting-mantra {
+		padding: 70px 20px 70px 20px;
+		text-align: justify;
+	}
+	.mind-over-matter {
+		padding: 45px;
+		text-align: justify;
+	}
+	.benefits-mantra-content h1 {
+		padding-bottom: 20px;
+		left: 40px;
+		padding-bottom: 0;
+	}
+	/* Benefits End */
+	/* life force page */
+	.life-force-content,
+	.life-force-content-types {
+		padding: 30px;
+		padding-bottom: 0;
+	}
+	.life-force-content-types h1 {
+		padding: 12px;
+		padding-left: 0;
+	}
+	/* life force End */
+	/* colours page */
+	.color-content {
+		padding: 20px 30px 10px 30px;
+	}
+	.color-content h1,
+	.color-benefits h3 {
+		text-align: center;
+		font-size: 22px;
+	}
+	.color-content h1::after {
+		margin-top: 18px;
+		left: 0px;
+	}
+	.color-benefits {
+		padding: 0px 0px 100px 0px;
+	}
+	.ben-list {
+		margin-bottom: 30px;
+	}
+	.color-benefits .row {
+		margin-bottom: 0px;
+	}
+	/* colours End */
+	/* Magnet Page */
+	.magnet-history-1 h3 {
+		text-align: center;
+		padding-left: 0;
+	}
+	.magnet-history-1 {
+		height: 650px;
+	}
+	.magnet-history-1 h1 {
+		font-size: 30px;
+		padding-left: 0;
+		text-align: center;
+	}
+	.magnet-history-1 p {
+		font-size: 14px;
+	}
+	/* Magnet End */
+	/* Mudras page */
+	.mudra-content {
+		padding: 35px;
+		text-align: justify;
+	}
+	.mudra-content-type {
+		padding: 35px;
+		padding-top: 0;
+	}
+	.mudra-content-type-image-1 {
+		margin-right: -30px;
+	}
+	.mudra-content-type-image-1 img {
+		height: 250px;
+		margin-left: -15px;
+	}
+	.mudra-content-type-1 {
+		height: 800px;
+		margin-right: -15px;
+		padding: 30px 15px 30px 15px;
+	}
+	.mudra-content-type-2 {
+		padding: 30px 15px 30px 15px;
+		height: 800px;
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.mudra-content-type-image-2 {
+		margin-right: -15px;
+	}
+	.mudra-content-type-image-2 img {
+		height: 250px;
+	}
+	.mudra-content-type-3 {
+		padding: 0px;
+		padding-top: 30px;
+	}
+	/* Mudras End */
+}

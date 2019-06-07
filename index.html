@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="web/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="web/css/component.css" />
+    <link rel="stylesheet" href="web/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="web/css/side-menu.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body class="cbp-spmenu-push">
+    <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+        <div class="ancient_left">
+                <div class="brand_icons">
+                <img src="Images/icons/Ancient Icon.svg" alt="">
+            </div>
+            <h3>ANCIENT</h3>
+            <a href="#Panchabhoothas">Panchabhoothas</a>
+            <a href="yoga.html" >What is yoga</a>
+            <a href="#Seven chakra" >Seven chakra</a>
+            <a href="Meditation.html" >Meditation in ancient cultures all over the world</a>
+                                <div class="arrow_1" id="showLeftPush_2">
+                                    <i  class="fa fa-arrow-right" aria-hidden="true"></i>
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </div>
+        </div>
+    
+        </nav>
+    
+        <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+            <div class="science_right">
+                <div class="brand_icons">
+                <img src="Images/icons/Science Icon.svg" alt="">
+            </div>
+            <h3>SCIENCE</h3>
+            <a href="Benefits.html">Benefits of yoga & Benefits of meditation</a>
+            <a href="Life_force.html" >Life force energy</a>
+            <a href="Aroma.html">Aroma therapy</a>
+            <a href="Colours.html">Colour therapy</a>
+            <!-- <a href="#">Sound therapy</a> -->
+            <a href="Magnet.html">Magnet therapy</a>
+            <a href="Mudras.html">Mudras</a>
+                        <div class="arrow_2" id="showRightPush_2" >
+                            <i class="fa fa-arrow-left"  aria-hidden="true"></i>
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+        </div>
+    
+        </nav>
+
+
+
+        <div class="main">
+            <header class="header" id="header">
+                <div class="top"></div>
+                <div class="hamburger">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="Images/logo/logo.png" alt="">
+                        </a>
+                    </div>
+                    <button class="button hamburger__button js-menu__toggle"> <span class="hamburger__label">Open menu</span>
+                    </button>
+                </div>
+                <nav class="menu">
+                    <ul class="list menu__list">
+                        <li class="menu__group"><a href="index.html" class="link menu__link">Home</a>
+                        </li>
+                        <li class="menu__group"><a href="product.html" class="link menu__link">Products</a>
+                        </li>
+                        <li class="menu__group"><a href="contact.html" class="link menu__link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="yogi">
+                <img src="svg/yogi.svg" class="yogisvg" alt="" />
+
+            </div>
+            
+            <div class="content_slider">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><p>Welcome to the space where you can better your life in easier way</p></div>
+                <div class="item"><p>Esy new life is trying to help all range of human beings over the world who differs from age to age, culture place, percepetion.</p></div>
+                
+                <div class="item"><p>This website is to show light on your unseen inside.</p></div>
+            </div>
+            </div>
+
+            <div class="c1">
+                <img class="a_logo_1" src="Images/icons/Ancient Icon.svg" alt="no images">
+                <span ><a href="#">ANCIENT</a></span>
+                            <div class="arrow" id="showLeftPush">
+                                <i  class="fa fa-arrow-left" aria-hidden="true"></i>
+                            </div>
+            </div>
+
+            <div class="c2">
+                <img class="s_logo_1" src="Images/icons/Science Icon.svg" alt="no images">
+                <span > <a href="#">SCIENCE</a> </span>
+            </div>
+                        <div class="arrow_3" id="showRightPush">
+                            <i  class="fa fa-arrow-right" aria-hidden="true"></i>
+                        </div>
+
+        </div>
+
+
+        <script src="web/js/jquery.min.js"></script>
+        <script src="web/js/bootstrap.min.js"></script>
+        <script src="web/js/classie.js"></script>
+        <!-- <script src="web/js/side-menu.js"></script> -->
+<script>
+var menuLeft = document.getElementById('cbp-spmenu-s1'),
+menuRight = document.getElementById('cbp-spmenu-s2'),
+menuTop = document.getElementById('cbp-spmenu-s3'),
+menuBottom = document.getElementById('cbp-spmenu-s4'),
+showLeftPush = document.getElementById('showLeftPush'),
+showRightPush = document.getElementById('showRightPush'),
+
+body = document.body;
+
+showLeftPush.onclick = function() {
+classie.toggle(this, 'active');
+classie.toggle(body, 'cbp-spmenu-push-toright');
+classie.toggle(menuLeft, 'cbp-spmenu-open');
+
+};
+showRightPush.onclick = function() {
+
+classie.toggle(body, 'cbp-spmenu-push-toleft');
+classie.toggle(menuRight, 'cbp-spmenu-open');
+
+};
+showRightPush.onclick = function() {
+
+classie.toggle(body, 'cbp-spmenu-push-toleft');
+classie.toggle(menuRight, 'cbp-spmenu-open');
+
+};
+$(showLeftPush_2).click(function(){
+	$("body").removeClass("cbp-spmenu-push-toright");
+	$(".cbp-spmenu-left").removeClass("cbp-spmenu-open")
+});
+//showRightPush_2
+$(showRightPush_2).click(function(){
+	$("body").removeClass("cbp-spmenu-push-toleft");
+	$(".cbp-spmenu-right").removeClass("cbp-spmenu-open")
+});
+</script>
+</body>
+</html>

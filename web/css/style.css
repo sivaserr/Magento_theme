@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Raleway&display=swap');
 .main-content {
     background: radial-gradient(#863567,#4654A1);
     height: 100vh;
@@ -75,7 +76,7 @@ box-shadow: none!important;
     font-weight: lighter;
 }
 .banner-side-menu {
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
     left: 50%;
@@ -121,7 +122,92 @@ box-shadow: none!important;
     padding-top: 100px;
     font-size: 16px;
 }
+.post {
+    position: relative;
+top: 0;
+padding-top: 50px;
+padding-bottom: 75px;
+}
+.post::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    border-bottom: 1px solid #000;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.post h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Bad Script', cursive;
+    font-weight: 600;
+    font-size: 25px;
+    color: #a9a9a9;
+}
+.post_hover .image {
+width: 100%!important;
+height: 250px!important;
+}
 
+.post_hover .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .post_middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .post_hover:hover .image {
+    opacity: 0.3;
+  }
+  
+  .post_hover:hover .post_middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #ff9800;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .gate-way h1 {
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-weight: 900;
+    font-size: 60px;
+    color: #a9a9a9;
+}
+.gate-way-btn {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.gate-way-btn input {
+    font-family: 'Libre Baskerville', serif;
+    background: transparent;
+    border: 1px solid #000;
+    padding: 5px;
+    border-radius: 100px;
+    font-size: 13px;
+}
+.gate-way-btn input:hover {
+    color: #fff;
+    background: #000;
+    transition: 1s all;
+}
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -143,7 +229,7 @@ box-shadow: none!important;
         font-size: 17px;
     }
     .banner-side-menu {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 100%;
     }
@@ -184,5 +270,12 @@ box-shadow: none!important;
     }
     #mySidenav ul li {
         text-align: left;
+    }
+    .post-1,.post-2,.post-3 {
+        padding-bottom: 20px;
+    }
+    .gate-way-btn input {
+        padding: 8px;
+        font-size: 12px;
     }
   }

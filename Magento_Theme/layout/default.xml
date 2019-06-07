@@ -13,9 +13,15 @@
      <block class="Magento\Framework\View\Element\Template" name="catalog.topnav" as="custom_topmenu" template="Magento_Theme::html/topmenu.phtml"/>
 </referenceContainer>
 
+        <referenceContainer name="footer-container">
+            <block class="Magento\Theme\Block\Html\Footer" name="footer" template="html/footer.phtml"/>
+        </referenceContainer>
 <referenceBlock name="header.links" display="true"/>
 
     <attribute name="class" value="cbp-spmenu-push"/>
+ <referenceContainer name="main.content">
+    <block class="Magento\Framework\View\Element\Template" name="custom.page" template="Magento_Theme::page/custom.phtml"/>
+</referenceContainer>
 
     </body>
 </page>		

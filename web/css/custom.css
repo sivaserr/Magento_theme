@@ -1,0 +1,104 @@
+.main {
+    padding: 0;
+    margin: 0;
+    max-width: 100%!important;
+    width: 100%;
+    }
+.close_btn {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.41);
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+    margin: 50px;
+    z-index: 999;
+    border: 1px solid #bfb8b8;
+}
+.footer{
+    background: #f2f2f2;
+    height: auto;
+}
+.footer-logo {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.footer-logo img {
+    height: 150px;
+}
+.footer-logo p {
+    color: #a5a5a5;
+}
+.main-footer {
+    padding-top: 30px;
+}
+.main-footer .row {
+    margin-right: 0;
+    padding-bottom: 30px;
+}
+.email {
+    padding: 5px;
+    padding-left: 15px;
+}
+.follow,.news {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.follow h3,.news h3 {
+    color: #cccbcb;
+    font-size: 18px;
+}
+.follow i {
+    font-size: 20px;
+    margin: 5px;
+    background: #4CAF50;
+    padding: 8px 10px 0px 8px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px;
+    color: #fff;
+    margin-top: 16px;
+}
+.news {
+    text-align: center;
+}
+.news form {
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    width: 100%;
+    padding-top: 16px;
+}
+.news form .input-group {
+    display: block;
+}
+.news-btn {
+    background: #4CAF50!important;
+    height: 36px;
+    width: 90px;
+    color: #fff;
+    border: none;
+}
+.sub-footer {
+    background-image: linear-gradient(To right,#863567,#4455a2,#2694ca,#299852,#f6d326,#e87838,#d33539);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+@media(max-width:769px){
+    .close_btn {
+        margin: 20px;
+    }
+.footer-logo {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer {
+    padding-bottom: 0px!important;
+}
+}

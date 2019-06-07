@@ -1,0 +1,59 @@
+<div class="footer">
+    <div class="main-footer">
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="follow">
+            <h3>Follow Along</h3>
+
+            <ul class="social-link">
+                <li><a href="https://www.facebook.com/esynewlife/"><i class="fa fa-facebook" aria-hidden="true"></i></a>  </li>
+                <li><a href="https://www.instagram.com/esynewlife/"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+            </ul>
+                              
+        </div>
+    </div>
+    <div class="col-sm-4">
+           <div class="footer-logo">
+                   <img src="<?php echo $this->getViewFileUrl('images/logo/logo.png') ?>" alt="">
+           </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="news">
+                <h3>Newsletter</h3>
+                <div class="block newsletter">
+    <div class="title"><strong><?= $block->escapeHtml(__('Newsletter')) ?></strong></div>
+    <div class="content">
+        <form class="form subscribe"
+            novalidate
+            action="<?= $block->escapeUrl($block->getFormActionUrl()) ?>"
+            method="post"
+            data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+            id="newsletter-validate-detail">
+            <div class="field newsletter">
+                <label class="label" for="newsletter"><span><?= $block->escapeHtml(__('Sign Up for Our Newsletter:')) ?></span></label>
+                <div class="control">
+                    <input name="email" type="email" id="newsletter"
+                                placeholder="<?= $block->escapeHtml(__('Enter your email address')) ?>"
+                                data-validate="{required:true, 'validate-email':true}"/>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="action subscribe primary" title="<?= $block->escapeHtmlAttr(__('Subscribe')) ?>" type="submit">
+                    <span><?= $block->escapeHtml(__('Subscribe')) ?></span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+<div class="sub-footer">
+             <p>Copyrights © 2019 Esynewlife All Rights reserved</p>
+ 
+       </div>
+
